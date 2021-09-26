@@ -11,13 +11,15 @@ function ExpenseItem(props) {
   // };
 
   return (
-    <Card className="expense-item">
-      <ExpenseDate date={props.date ?? new Date(1, 1, 1900)} />
-      <div className="expense-item__description">
-        <h2>{props.title}</h2>
-        <div className="expense-item__price">{props.amount ?? -1}$</div>
-      </div>
-    </Card>
+    <li>
+      <Card className="expense-item">
+        <ExpenseDate date={props.date ?? new Date(1, 1, 1900)} />
+        <div className="expense-item__description">
+          <h2>{props.title}</h2>
+          <div className="expense-item__price">{props.amount ?? -1}$</div>
+        </div>
+      </Card>
+    </li>
   );
 }
 

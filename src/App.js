@@ -5,10 +5,11 @@ import NewExpenses from "./components/NewExpense/NewExpense";
 
 const DUMMY_EXPENSES = [
   { id: 0, date: new Date(2021, 7, 1), title: "Movie", amount: 58.5 },
-  { id: 1, date: new Date(2021, 2, 30), title: "Car Insurence", amount: 250.5 },
+  { id: 1, date: new Date(2019, 2, 30), title: "Car Insurence", amount: 250.5 },
   { id: 2, date: new Date(2021, 12, 30), title: "Car", amount: 45 },
   { id: 3, date: new Date(2021, 2, 24), title: "Computer", amount: 55.5 },
-  { id: 4, date: new Date(2021, 5, 11), title: "Pop", amount: 78.58 },
+  { id: 4, date: new Date(2019, 5, 11), title: "Pop", amount: 78.58 },
+  { id: 5, date: new Date(2022, 5, 11), title: "Kong", amount: 12.63 },
 ];
 
 function App() {
